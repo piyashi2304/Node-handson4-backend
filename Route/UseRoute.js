@@ -1,5 +1,5 @@
 const route=require ('express').Router()
-const bcrypt=require('bcrypt')
+const bcrypt=require('bcryptjs')
 const jwt=require('jsonwebtoken');
 const  auth  = require('../Middleware/Auth');
 const saltRounds=10;
